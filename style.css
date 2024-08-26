@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    background:#F3F5FC;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 8%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    
+}
+
+.text-area{
+    border:none;
+    color:#0a3871;
+    margin-top: 50px;
+    text-transform: lowercase;
+
+    resize: none;
+}
+
+::placeholder{
+    color:#0a3871;
+    .text-area:focus{
+    outline: none;
+    }
+}
+
+ .Mensaje{
+    resize: none;
+    padding: 5px;
+    padding-bottom: 10px;
+   
+    background: white;
+    background-image: url("Assets/Muneco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 80px;
+    
+    position: fixed;
+}
+
+.Mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar{
+    background-color: #0a3871;
+    border: 1px solid=#0a3871; 
+    border-radius: 25px;
+    color:white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+
+.btn-desencriptar{
+    background-color: #d8dfe8;
+    border: 1px solid=#0a3871; 
+    border-radius: 25px;
+    color:#0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar{
+    border: 1px solid=#0a3871; 
+    border-radius: 25px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+/*.dinamico{
+    background: transparent;
+    margin-left: 120px;
+    margin-top: -240px;
+    width: 360px;
+    position: absolute;
+    text-align: center;
+}
+*/
+.Informacion{
+    color:#495057;
+    font-size: 18px;
+}
